@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>formualrio anexo2</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Tipos de campos en los formularios</legend>
+                <p>compendio</p>
+                <ul>
+                    <li>
+                        <!-- hole este es un nuevo comentario -->
+                        <!-- Éste es un nuevo comentario -->
+                        <!--  simple text-->
+                        <input type="text" placeholder="ingrese algo...."><br>
+                        <input type="password" placeholder="Enter your password" /><br>
+                        <input type="email" placeholder="Enter your email" /><br>
+                        <input type="number" min="2015" max="2023" placeholder="Enter a number" /><br>
+                        <input type="radio" /><br>
+                        <input type="checkbox" /><br>
+                        <input type="submit" value="Enter to Win" /><br>
+                        <input type="button" value="Submit" /><br>
+                        <input type="file" /><br>
+                        <input type="color" /><br>
+                        <input type="search" /><br>
+                        <input type="url" /><br>
+                        <input type="tel" /><br>
+                        <input type="date" /><br>
+                        <input type="datetime-local" /><br>
+                        <input type="week" /><br>
+                        <input type="month" /><br>
+                        <textarea cols="50" rows="20"></textarea><br>
+                        <!-- MULTIPLE SELCT BOX -->
+                        <select>
+                            <option value="HTML">Select a Language</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="React">React</option>
+                      </select>
+
+
+                        <label for="fecha">fecha: </label><input name="fecha" type="date">
+
+                        <p>Education completed: <input type="text" list="edulevel"
+                            name="education">
+                            <datalist id="edulevel">
+                            <option value="High School">
+                            <option value="Bachelors Degree">
+                            <option value="Masters Degree">
+                            <option value="PhD">
+                            </datalist>
+                            <!--  RADIO BUTTONS -->
+                            <p>elija su rango de estatura:</p>
+                            <ol>
+                                <li><input type="radio" value="under150" name="estatura" >menor a 1.50 m</li>
+                                <li><input type="radio" value="under150" name="estatura" >1.50 - 1.60 m</li>
+                                <li><input type="radio" value="under150" name="estatura" >1.61 - 1.70 m</li>
+                                <li><input type="radio" value="over150" name="estatura" >mayor a 1.70 m</li>
+                            </ol>
+
+
+                            <!--  ckeck BUTTONS -->
+                            <p>elija sus comidas favoritas</p>
+                            <ol>
+                                <li><input type="checkbox" value="c1" name="comida" >salchipapa</li>
+                                <li><input type="checkbox" value="c2" name="comida" >salchichon</li>
+                                <li><input type="checkbox" value="c3" name="comida" >silpancho</li>
+                                <li><input type="checkbox" value="c4" name="comida" >aji de fideo</li>
+                            </ol>
+
+
+                            <!-- progress -->
+                            <progress max="100" id="fave">100</progress>
+                            <meter min="0" max="100" name="volume">100%</meter>
+<!-- rangos numericos -->
+<label for="satisfaccion">Su satisfacción: </label><input type="range" max="10" min="0" step="1" name="misatisfaccion">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
